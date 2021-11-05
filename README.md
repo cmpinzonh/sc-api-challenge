@@ -13,9 +13,9 @@
 
 **Description:** Assuming that you have [NodeJS](https://nodejs.org/es/download/package-manager/) installed you should only need to clone the repo to your machine and run
 
-    ```
+    
     npm install
-    ```
+    
 
 That will install all the required dependencies for the framework to function.
 
@@ -23,9 +23,9 @@ That will install all the required dependencies for the framework to function.
 
 To run the tests locally you only need to execute the following command: 
 
-    ```
+    
     npm test
-    ```
+    
 
 ### 3. Running Tests with TravisCI
 This repo has [TravisCI Integrration](https://app.travis-ci.com/github/cmpinzonh/sc-api-challenge) which means that with every push to a remote branch a build will be triggered, that including attempts to merge to a pull request. Manually triggering a build of a specific desired branch is also possible.
